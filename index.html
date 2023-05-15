@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ROCK PAPER SCISSORS</title>
+    
+</head>
+<body>
+    <p class = "title">Let's play <span class = "colors">Rock Paper Scissors</span></p>
+    <button id = "btn1" class = "button" onclick="showBtn2()">START PLAYING</button>
+
+    <div class="button-container" id="btn2" style="display:none;">
+        <button class="my-button" id = "Rock">Rock</button>
+        <button class="my-button" id = "Paper">Paper</button>
+        <button class="my-button" id = "Scissors">Scissors</button>
+      </div>
+
+
+      <p class="chosen" id="chosenrock" style="display:none;" >You chose ROCK!</p>
+      <p class="chosen" id="chosenpaper" style="display:none;" >You chose PAPER!</p>
+      <p class="chosen" id="chosensci" style="display:none;" >You chose SCISSORS!</p>
+
+
+
+      <p class="computer" id="comprock" style="display:none;" >Computer chose ROCK!</p>
+      <p class="computer" id="comppaper" style="display:none;" >Computer chose PAPER!</p>
+      <p class="computer" id="compsci" style="display:none;" >Computer chose SCISSORS!</p>
+
+      <p class="answer" id="win" style="display:none;" >YOU WON!!!</p>
+      <p class="answer" id="lost" style="display:none;" >YOU LOST :(</p>
+      <p class="answer" id="tie" style="display:none;" >It's a tie!</p>
+
+
+      <button class="restart" id="restart" style="display:none;" onclick="showPrev()">PLAY AGAIN</button>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+.title {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.colors {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;  
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.button {
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 3px solid crimson;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: salmon; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.my-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0166ff;
+    border: none;
+    color: white;
+    padding: 15px 30px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.my-button:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0057d9;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.chosen{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.computer {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;   
+}
+
+.answer {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;  
+    font-style: italic;
+}
